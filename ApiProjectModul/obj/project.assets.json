@@ -9308,11 +9308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Code\\source\\repos\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul.csproj",
+      "projectUniqueName": "E:\\repos_alt\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul.csproj",
       "projectName": "ApiProjectModul",
-      "projectPath": "C:\\Users\\Code\\source\\repos\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul.csproj",
+      "projectPath": "E:\\repos_alt\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul.csproj",
       "packagesPath": "C:\\Users\\Code\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Code\\source\\repos\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul\\obj\\",
+      "outputPath": "E:\\repos_alt\\ApiProjectModul\\ApiProjectModul\\ApiProjectModul\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -58,7 +58,7 @@ namespace ApiProjectModul.Controllers.v1
 
         }
 
-
+      
         [HttpGet]
         [Route("{id:int}", Name = nameof(GetSingleProduct))]
         public ActionResult GetSingleProduct(ApiVersion version, int id)
@@ -206,7 +206,7 @@ namespace ApiProjectModul.Controllers.v1
             });
         }
 
-        private dynamic ExpandSingleFoodItem(Composition compItem, ApiVersion apiVersion)//Bura Bax?
+        private dynamic ExpandSingleFoodItem(Composition compItem, ApiVersion apiVersion)
         {
             var links = GetLinks(compItem.Id, apiVersion);
             CompositionDto item = _mapper.Map<CompositionDto>(compItem);
@@ -216,6 +216,7 @@ namespace ApiProjectModul.Controllers.v1
 
             return resourceToReturn;
         }
+
         private IEnumerable<URLDto> GetLinks(int id, ApiVersion apiVersion)
         {
             var links = new List<URLDto>();

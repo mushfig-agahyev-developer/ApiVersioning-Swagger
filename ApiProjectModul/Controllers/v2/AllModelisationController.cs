@@ -17,5 +17,11 @@ namespace ApiProjectModul.Controllers.v2
         {
             return Ok("2.0");
         }
+
+        [HttpPost]
+        public ActionResult Post()
+        {
+            return Ok("2.0");
+        }
     }
 }

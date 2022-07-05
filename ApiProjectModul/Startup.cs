@@ -110,7 +110,7 @@ namespace ApiProjectModul
                     {
                         context.Response.StatusCode = 500;
                         context.Response.ContentType = "text/plain";
-                        var errorFeature = context.Features.Get<IExceptionHandlerFeature>();//using Microsoft.AspNetCore.Diagnostics;
+                        var errorFeature = context.Features.Get<IExceptionHandlerFeature>();
                         if (errorFeature != null)
                         {
                             var logger = loggerFactory.CreateLogger("Global exception logger");
